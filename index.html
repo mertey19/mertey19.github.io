@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mert Erdoğan Yıldırım — Bilgisayar Mühendisliği Öğrencisi &amp; Geliştirici</title>
+<meta name="description" content="Mert Erdoğan Yıldırım — Hacettepe Üniversitesi Bilgisayar Mühendisliği öğrencisi, Ankara. Yapay zekâ, bilgisayarlı görü ve yazılım mühendisliği odaklı 23 proje; App Store ve Google Play'de yayında olan Patiro uygulamasının geliştiricisi.">
+<meta property="og:title" content="Mert Erdoğan Yıldırım — Portföy">
+<meta property="og:description" content="Yapay zekâ, yazılım mühendisliği ve bilgisayarlı görü odaklı 23 proje. Patiro — App Store ve Google Play'de yayında.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mertey19.github.io/">
+<link rel="canonical" href="https://mertey19.github.io/">
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/196539396?v=4">
+<meta property="og:locale" content="tr_TR">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Mert Erdoğan Yıldırım — Portföy">
+<meta name="twitter:description" content="Yapay zekâ, yazılım mühendisliği ve bilgisayarlı görü odaklı 23 proje. Patiro — App Store ve Google Play'de yayında.">
+<meta name="twitter:image" content="https://avatars.githubusercontent.com/u/196539396?v=4">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Mert Erdoğan Yıldırım",
+  "jobTitle": "Bilgisayar Mühendisliği Öğrencisi",
+  "affiliation": {"@type": "CollegeOrUniversity", "name": "Hacettepe Üniversitesi"},
+  "email": "mailto:merterdoganyildirim@gmail.com",
+  "address": {"@type": "PostalAddress", "addressLocality": "Ankara", "addressCountry": "TR"},
+  "url": "https://mertey19.github.io/",
+  "image": "https://avatars.githubusercontent.com/u/196539396?v=4",
+  "sameAs": ["https://github.com/mertey19", "https://apps.apple.com/us/app/patiro/id6776685421", "https://play.google.com/store/apps/details?id=com.patiro.app"],
+  "knowsAbout": ["Yapay Zekâ", "Bilgisayarlı Görü", "Yazılım Mühendisliği", "Veri Bilimi", "Simülasyon"]
+}
+</script>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23e8500a'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='36' font-weight='700' fill='%23faf9f6' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#faf9f6;
+  --bg2:#f3f0e9;
+  --ink:#16130e;
+  --ink2:#4c463c;
+  --mut:#6c6455;
+  --acc:#e8500a;
+  --acc-dark:#b93c04;
+  --rule:#e0dacd;
+  --rule2:#cfc7b6;
+  --serif:"Fraunces",Georgia,serif;
+  --sans:"Inter",system-ui,-apple-system,sans-serif;
+  --max:1200px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important}
+}
+body{
+  background:var(--bg);
+  color:var(--ink);
+  font-family:var(--sans);
+  font-size:16px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+::selection{background:var(--acc);color:#fff}
+a{color:inherit}
+a:focus-visible,button:focus-visible{outline:3px solid var(--acc);outline-offset:3px;border-radius:2px}
+img{max-width:100%;display:block}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 32px}
+@media(max-width:600px){.wrap{padding:0 20px}}
+
+/* ---------- reveal ---------- */
+.rv{opacity:0;transform:translateY(26px);transition:opacity .7s cubic-bezier(.22,1,.36,1),transform .7s cubic-bezier(.22,1,.36,1)}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none}}
+
+/* ---------- nav ---------- */
+.nav{
+  position:sticky;top:0;z-index:100;
+  background:rgba(250,249,246,.9);
+  backdrop-filter:blur(12px);
+  -webkit-backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--rule);
+}
+.nav-in{max-width:var(--max);margin:0 auto;padding:0 32px;display:flex;align-items:center;justify-content:space-between;height:68px}
+@media(max-width:600px){.nav-in{padding:0 20px}}
+.logo{font-family:var(--serif);font-weight:900;font-size:1.35rem;text-decoration:none;letter-spacing:-.02em}
+.logo em{font-style:normal;color:var(--acc)}
+.nav-links{display:flex;gap:4px;list-style:none;align-items:center}
+.nav-links a{
+  text-decoration:none;font-size:.82rem;font-weight:600;letter-spacing:.04em;
+  padding:8px 13px;border-radius:99px;color:var(--ink2);
+  transition:color .2s,background .2s;
+}
+.nav-links a .n{color:var(--acc);font-family:var(--serif);font-weight:400;font-size:.72rem;margin-right:4px}
+.nav-links a:hover{color:var(--ink);background:var(--bg2)}
+.nav-links a.act{color:var(--ink);background:var(--bg2);box-shadow:inset 0 -2px 0 var(--acc)}
+.nav-cta{background:var(--ink)!important;color:var(--bg)!important;margin-left:8px}
+.nav-cta:hover{background:var(--acc)!important;color:#fff!important}
+.burger{
+  display:none;background:none;border:1px solid var(--rule2);border-radius:8px;
+  width:44px;height:44px;cursor:pointer;position:relative;
+}
+.burger span{position:absolute;left:11px;right:11px;height:2px;background:var(--ink);transition:transform .3s,opacity .3s,top .3s}
+.burger span:nth-child(1){top:15px}.burger span:nth-child(2){top:21px}.burger span:nth-child(3){top:27px}
+.burger[aria-expanded="true"] span:nth-child(1){top:21px;transform:rotate(45deg)}
+.burger[aria-expanded="true"] span:nth-child(2){opacity:0}
+.burger[aria-expanded="true"] span:nth-child(3){top:21px;transform:rotate(-45deg)}
+@media(max-width:900px){
+  .burger{display:block}
+  .nav-links{
+    position:absolute;top:68px;left:0;right:0;
+    flex-direction:column;align-items:stretch;gap:0;
+    background:var(--bg);border-bottom:1px solid var(--rule);
+    padding:10px 20px 20px;display:none;
+  }
+  .nav-links.open{display:flex}
+  .nav-links a{padding:14px 10px;border-radius:8px;font-size:1rem}
+  .nav-links a.act{box-shadow:inset 3px 0 0 var(--acc)}
+  .nav-cta{margin:10px 0 0;text-align:center}
+}
+
+/* ---------- hero ---------- */
+.hero{position:relative;border-bottom:1px solid var(--rule);overflow:hidden}
+.hero-grid{
+  display:grid;grid-template-columns:1fr auto;gap:48px;align-items:end;
+  padding:84px 0 64px;
+}
+.kicker{
+  display:inline-flex;align-items:center;gap:10px;
+  font-size:.78rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--acc-dark);
+  margin-bottom:26px;
+}
+.kicker::before{content:"";width:36px;height:1px;background:var(--acc)}
+h1.big{
+  font-family:var(--serif);font-weight:900;letter-spacing:-.03em;
+  font-size:clamp(2.9rem,8.2vw,6.4rem);line-height:.98;
+}
+h1.big .thin{font-weight:300;font-style:italic;display:block;color:var(--ink2)}
+h1.big .oj{color:var(--acc)}
+.hero-sub{
+  margin-top:28px;max-width:560px;font-size:1.08rem;color:var(--ink2);
+}
+.hero-sub strong{color:var(--ink)}
+.hero-meta{margin-top:18px;font-size:.85rem;color:var(--mut);display:flex;gap:20px;flex-wrap:wrap}
+.hero-meta span{display:inline-flex;align-items:center;gap:7px}
+.hero-cta{margin-top:36px;display:flex;gap:14px;flex-wrap:wrap}
+.btn{
+  display:inline-flex;align-items:center;gap:10px;text-decoration:none;
+  font-weight:600;font-size:.95rem;padding:15px 28px;border-radius:99px;
+  transition:transform .2s,box-shadow .2s,background .2s,color .2s;
+  border:1.5px solid var(--ink);
+}
+.btn-solid{background:var(--ink);color:var(--bg)}
+.btn-solid:hover{background:var(--acc);border-color:var(--acc);color:#fff;transform:translateY(-2px);box-shadow:0 10px 24px -10px rgba(232,80,10,.55)}
+.btn-line{background:transparent;color:var(--ink)}
+.btn-line:hover{background:var(--ink);color:var(--bg);transform:translateY(-2px)}
+.hero-portrait{position:relative;padding-bottom:6px}
+.hero-portrait .frame{
+  width:210px;height:210px;border-radius:50%;overflow:hidden;
+  border:1px solid var(--rule2);
+  box-shadow:0 0 0 10px var(--bg),0 0 0 11px var(--rule2),18px 22px 0 -4px var(--acc);
+}
+.hero-portrait .frame img{width:100%;height:100%;object-fit:cover}
+.hero-portrait .stamp{
+  position:absolute;top:-26px;right:-18px;width:92px;height:92px;
+  animation:spin 24s linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media(max-width:820px){
+  .hero-grid{grid-template-columns:1fr;padding:56px 0 48px}
+  .hero-portrait{order:-1}
+  .hero-portrait .frame{width:150px;height:150px}
+  .hero-portrait .stamp{width:72px;height:72px;top:-16px;left:118px;right:auto}
+}
+.stats{
+  display:grid;grid-template-columns:repeat(4,1fr);
+  border-top:1px solid var(--rule);
+}
+.stat{padding:26px 24px 30px;border-left:1px solid var(--rule)}
+.stat:first-child{border-left:none;padding-left:0}
+.stat b{font-family:var(--serif);font-weight:700;font-size:2.4rem;letter-spacing:-.02em;display:block;line-height:1.1}
+.stat b em{font-style:normal;color:var(--acc)}
+.stat span{font-size:.8rem;color:var(--mut);letter-spacing:.06em;text-transform:uppercase;font-weight:600}
+@media(max-width:820px){
+  .stats{grid-template-columns:1fr 1fr}
+  .stat{padding:20px 18px}
+  .stat:nth-child(odd){border-left:none;padding-left:0}
+  .stat:nth-child(n+3){border-top:1px solid var(--rule)}
+  .stat b{font-size:1.9rem}
+}
+
+/* ---------- section headers ---------- */
+section{scroll-margin-top:84px}
+.sec-head{
+  display:grid;grid-template-columns:110px 1fr auto;gap:24px;align-items:baseline;
+  padding:72px 0 40px;
+}
+.sec-num{font-family:var(--serif);font-weight:300;font-style:italic;font-size:1.6rem;color:var(--acc)}
+.sec-num::after{content:"";display:block;width:56px;height:1px;background:var(--rule2);margin-top:8px}
+.sec-title{font-family:var(--serif);font-weight:700;letter-spacing:-.025em;font-size:clamp(1.9rem,4.4vw,3.2rem);line-height:1.05}
+.sec-note{font-size:.82rem;color:var(--mut);max-width:230px;text-align:right}
+@media(max-width:820px){
+  .sec-head{grid-template-columns:1fr;gap:10px;padding:56px 0 30px}
+  .sec-note{text-align:left;max-width:none}
+}
+
+/* ---------- patiro flagship ---------- */
+#patiro{border-bottom:1px solid var(--rule)}
+.flag{
+  border:1px solid var(--ink);border-radius:22px;overflow:hidden;
+  display:grid;grid-template-columns:1.15fr .85fr;
+  background:#fff;
+  box-shadow:14px 16px 0 -2px var(--bg2),14px 16px 0 -1px var(--rule2);
+  margin-bottom:80px;
+}
+.flag-txt{padding:52px 54px 48px}
+.live-badge{
+  display:inline-flex;align-items:center;gap:9px;
+  background:#eaf6ec;color:#1c6b34;border:1px solid #bfe3c8;
+  font-size:.75rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  padding:7px 15px;border-radius:99px;margin-bottom:22px;
+}
+.live-dot{width:8px;height:8px;border-radius:50%;background:#22a04a;animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(34,160,74,.45)}50%{box-shadow:0 0 0 6px rgba(34,160,74,0)}}
+.flag-name{font-family:var(--serif);font-weight:900;font-size:clamp(2.6rem,5vw,4rem);letter-spacing:-.03em;line-height:1}
+.flag-name em{font-style:italic;font-weight:300;color:var(--acc);font-size:.5em;letter-spacing:0;margin-left:10px}
+.flag-one{margin-top:16px;font-size:1.08rem;color:var(--ink2);max-width:520px}
+.flag-desc{margin-top:14px;font-size:.95rem;color:var(--mut);max-width:540px}
+.flag-feats{list-style:none;margin-top:26px;display:grid;grid-template-columns:1fr 1fr;gap:12px 24px}
+.flag-feats li{font-size:.9rem;color:var(--ink2);padding-left:24px;position:relative}
+.flag-feats li::before{content:"";position:absolute;left:0;top:8px;width:12px;height:2px;background:var(--acc)}
+.stores{margin-top:34px;display:flex;gap:14px;flex-wrap:wrap}
+.store-btn{
+  display:inline-flex;align-items:center;gap:12px;text-decoration:none;
+  background:var(--ink);color:#fff;border-radius:12px;padding:10px 20px 10px 16px;
+  transition:transform .2s,box-shadow .2s,background .2s;
+  border:1px solid var(--ink);min-width:190px;
+}
+.store-btn:hover{transform:translateY(-3px);background:#000;box-shadow:0 14px 26px -12px rgba(22,19,14,.6)}
+.store-btn svg{flex:0 0 auto}
+.store-btn .st{display:flex;flex-direction:column;line-height:1.2}
+.store-btn .st small{font-size:.66rem;font-weight:500;letter-spacing:.06em;opacity:.85;text-transform:uppercase}
+.store-btn .st b{font-size:1.02rem;font-weight:600;letter-spacing:-.01em}
+.flag-vis{
+  position:relative;background:linear-gradient(150deg,#fff3ea 0%,#ffe1cd 55%,#ffd0b3 100%);
+  border-left:1px solid var(--rule);
+  display:flex;align-items:center;justify-content:center;padding:44px 20px;
+  overflow:hidden;
+}
+.flag-vis .paws{position:absolute;inset:0;opacity:.5}
+@media(max-width:960px){
+  .flag{grid-template-columns:1fr}
+  .flag-txt{padding:36px 26px}
+  .flag-vis{border-left:none;border-top:1px solid var(--rule);min-height:300px}
+  .flag-feats{grid-template-columns:1fr}
+}
+
+/* ---------- featured ---------- */
+#one-cikan{border-bottom:1px solid var(--rule)}
+.feat-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px;padding-bottom:84px}
+@media(max-width:900px){.feat-grid{grid-template-columns:1fr;gap:24px}}
+.feat{
+  border:1px solid var(--rule2);border-radius:18px;background:#fff;
+  padding:36px 36px 32px;position:relative;overflow:hidden;
+  transition:transform .25s,box-shadow .25s,border-color .25s;
+  display:flex;flex-direction:column;
+}
+.feat:hover{transform:translateY(-5px);border-color:var(--ink);box-shadow:0 22px 44px -22px rgba(22,19,14,.28)}
+.feat::before{
+  content:attr(data-idx);position:absolute;top:18px;right:24px;
+  font-family:var(--serif);font-style:italic;font-weight:300;font-size:3.6rem;
+  color:var(--bg2);line-height:1;z-index:0;transition:color .25s;
+}
+.feat:hover::before{color:#ffe3d2}
+.feat-cat{font-size:.72rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--acc-dark);margin-bottom:14px}
+.feat h3{font-family:var(--serif);font-weight:700;font-size:1.7rem;letter-spacing:-.02em;line-height:1.15;position:relative;z-index:1}
+.feat .one{margin-top:10px;color:var(--ink2);font-size:.95rem}
+.feat ul{list-style:none;margin:20px 0 0;display:grid;gap:9px}
+.feat ul li{font-size:.87rem;color:var(--mut);padding-left:22px;position:relative}
+.feat ul li::before{content:"";position:absolute;left:0;top:8px;width:10px;height:2px;background:var(--acc)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.chip{
+  font-size:.72rem;font-weight:600;letter-spacing:.03em;
+  border:1px solid var(--rule2);border-radius:99px;padding:4px 12px;color:var(--ink2);
+  background:var(--bg);transition:border-color .2s,color .2s;
+}
+.feat:hover .chip{border-color:#e9c9b4}
+.feat-foot{margin-top:auto;padding-top:24px}
+.ghlink{
+  display:inline-flex;align-items:center;gap:8px;text-decoration:none;
+  font-weight:700;font-size:.88rem;color:var(--ink);
+  border-bottom:2px solid var(--acc);padding-bottom:3px;
+  transition:color .2s,gap .25s;
+}
+.ghlink:hover{color:var(--acc);gap:12px}
+
+/* ---------- all projects ---------- */
+#projeler{border-bottom:1px solid var(--rule)}
+.filters{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:36px}
+.fbtn{
+  font-family:var(--sans);font-size:.83rem;font-weight:600;cursor:pointer;
+  background:transparent;border:1.5px solid var(--rule2);border-radius:99px;
+  padding:9px 18px;color:var(--ink2);transition:all .2s;
+}
+.fbtn .c{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--mut);margin-left:5px;font-size:.78rem}
+.fbtn:hover{border-color:var(--ink);color:var(--ink)}
+.fbtn[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.fbtn[aria-pressed="true"] .c{color:var(--acc)}
+.proj-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;padding-bottom:84px}
+@media(max-width:1020px){.proj-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){.proj-grid{grid-template-columns:1fr}}
+.pcard{
+  border:1px solid var(--rule2);border-radius:14px;background:#fff;
+  padding:24px 24px 20px;display:flex;flex-direction:column;
+  transition:transform .22s,box-shadow .22s,border-color .22s;
+  position:relative;
+}
+.pcard:hover{transform:translateY(-4px);border-color:var(--ink);box-shadow:0 16px 34px -20px rgba(22,19,14,.3)}
+.pcard.hide{display:none}
+.pcard-top{display:flex;align-items:center;gap:14px;margin-bottom:16px}
+.mono{
+  width:46px;height:46px;border-radius:11px;flex:0 0 auto;
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--serif);font-weight:700;font-size:1.3rem;color:#fff;
+  position:relative;overflow:hidden;
+}
+.mono::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(135deg,transparent 0 6px,rgba(255,255,255,.14) 6px 7px)}
+.m-masaustu{background:#264653}.m-web{background:#b5541c}.m-mobil{background:#7a3e9d}
+.m-ai-ml{background:#1d6b4f}.m-arac{background:#8a6d1a}.m-oyun{background:#a13750}
+.pcard-cat{font-size:.68rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--mut)}
+.pcard h3{font-family:var(--serif);font-weight:700;font-size:1.13rem;letter-spacing:-.01em;line-height:1.25}
+.pcard .one{font-size:.85rem;color:var(--mut);margin-top:8px;flex-grow:0}
+.pcard .chips{margin-top:16px}
+.pcard-foot{margin-top:auto;padding-top:18px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.plink{
+  display:inline-flex;align-items:center;gap:6px;text-decoration:none;
+  font-weight:700;font-size:.8rem;color:var(--ink);transition:color .2s;
+}
+.plink:hover{color:var(--acc)}
+.plink svg{transition:transform .2s}
+.plink:hover svg{transform:translate(2px,-2px)}
+.mini-live{
+  font-size:.66rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  background:#eaf6ec;color:#1c6b34;border:1px solid #bfe3c8;border-radius:99px;padding:3px 10px;
+  position:absolute;top:18px;right:18px;
+}
+
+/* ---------- skills ---------- */
+#yetenekler{border-bottom:1px solid var(--rule)}
+.skill-rows{padding-bottom:84px}
+.skill-row{
+  display:grid;grid-template-columns:270px 1fr;gap:28px;
+  padding:28px 0;border-top:1px solid var(--rule);align-items:start;
+}
+.skill-row:last-child{border-bottom:1px solid var(--rule)}
+.skill-row h3{font-family:var(--serif);font-weight:700;font-size:1.25rem;letter-spacing:-.01em}
+.skill-row h3 small{display:block;font-family:var(--sans);font-weight:600;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--acc-dark);margin-bottom:6px}
+.skill-chips{display:flex;flex-wrap:wrap;gap:9px}
+.schip{
+  font-size:.83rem;font-weight:600;border:1px solid var(--rule2);border-radius:99px;
+  padding:7px 16px;background:#fff;color:var(--ink2);cursor:default;
+  transition:transform .18s,border-color .18s,color .18s,background .18s;
+}
+.schip:hover{transform:translateY(-2px);border-color:var(--acc);color:var(--acc-dark);background:#fff6f0}
+@media(max-width:820px){.skill-row{grid-template-columns:1fr;gap:14px;padding:22px 0}}
+
+/* ---------- about ---------- */
+#hakkimda{border-bottom:1px solid var(--rule)}
+.about-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:56px;padding-bottom:84px;align-items:start}
+.about-txt p{font-size:1.06rem;color:var(--ink2);margin-bottom:20px}
+.about-txt p:first-child{
+  font-family:var(--serif);font-size:1.5rem;font-weight:400;line-height:1.45;color:var(--ink);letter-spacing:-.01em;
+}
+.about-txt p:first-child::first-letter{
+  font-size:3.4em;font-weight:900;float:left;line-height:.82;margin:6px 12px 0 0;color:var(--acc);
+}
+.about-side{border-left:1px solid var(--rule);padding-left:36px}
+.about-side dl{display:grid;gap:20px}
+.about-side dt{font-size:.7rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--mut);margin-bottom:4px}
+.about-side dd{font-weight:600;font-size:.98rem}
+.about-side dd a{text-decoration:none;border-bottom:2px solid var(--acc);padding-bottom:2px;transition:color .2s}
+.about-side dd a:hover{color:var(--acc)}
+@media(max-width:820px){
+  .about-grid{grid-template-columns:1fr;gap:36px}
+  .about-side{border-left:none;padding-left:0;border-top:1px solid var(--rule);padding-top:28px}
+}
+
+/* ---------- contact ---------- */
+.contact{padding-bottom:90px;text-align:left}
+.contact-big{
+  font-family:var(--serif);font-weight:900;letter-spacing:-.03em;
+  font-size:clamp(2.4rem,7vw,5.4rem);line-height:1.02;
+}
+.contact-big a{
+  text-decoration:none;color:var(--ink);
+  background-image:linear-gradient(var(--acc),var(--acc));
+  background-repeat:no-repeat;background-size:100% 4px;background-position:0 96%;
+  transition:color .25s,background-size .25s;
+  word-break:break-word;
+}
+.contact-big a:hover,.contact-big a:focus-visible{color:var(--acc);background-size:100% 10px}
+.contact-sub{margin-top:26px;color:var(--mut);max-width:520px;font-size:1rem}
+.contact-links{margin-top:36px;display:flex;gap:14px;flex-wrap:wrap}
+footer{border-top:1px solid var(--rule);padding:30px 0 40px}
+.foot-in{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center;font-size:.82rem;color:var(--mut)}
+.foot-in b{font-family:var(--serif);color:var(--ink)}
+.top-link{text-decoration:none;font-weight:700;color:var(--ink);display:inline-flex;gap:8px;align-items:center;transition:color .2s}
+.top-link:hover{color:var(--acc)}
+
+/* ---------- sentez eklemeleri ---------- */
+.skip{position:absolute;left:-9999px;top:0;background:var(--ink);color:#fff;padding:12px 20px;z-index:200;border-radius:0 0 10px 0;text-decoration:none;font-weight:600}
+.skip:focus{left:0}
+#main{display:block}
+.avail{margin-top:22px;margin-bottom:0}
+.pcard h3 a{text-decoration:none;color:inherit;transition:color .2s}
+.pcard h3 a:hover,.pcard h3 a:focus-visible{color:var(--acc)}
+.plink-store{display:inline-flex;align-items:center;gap:7px;text-decoration:none;font-weight:700;font-size:.76rem;background:var(--ink);color:#fff;border-radius:9px;padding:7px 13px;transition:background .2s,transform .2s}
+.plink-store:hover{background:var(--acc);transform:translateY(-2px);color:#fff}
+</style>
+</head>
+<body>
+
+<a href="#main" class="skip">İçeriğe atla</a>
+
+<header class="nav">
+  <div class="nav-in">
+    <a class="logo" href="#" aria-label="Ana sayfa — Mert Erdoğan Yıldırım">mert<em>.</em>yıldırım</a>
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="navlinks" aria-label="Menüyü aç/kapat">
+      <span></span><span></span><span></span>
+    </button>
+    <nav aria-label="Ana gezinme">
+      <ul class="nav-links" id="navlinks">
+        <li><a href="#patiro"><span class="n">01</span>Patiro</a></li>
+        <li><a href="#one-cikan"><span class="n">02</span>Öne Çıkanlar</a></li>
+        <li><a href="#projeler"><span class="n">03</span>Projeler</a></li>
+        <li><a href="#yetenekler"><span class="n">04</span>Yetenekler</a></li>
+        <li><a href="#hakkimda"><span class="n">05</span>Hakkımda</a></li>
+        <li><a href="#iletisim" class="nav-cta">İletişim</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero" aria-label="Tanıtım">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <p class="kicker rv">Portföy — Ankara, Türkiye</p>
+        <h1 class="big rv">
+          Mert Erdoğan<span class="thin">Yıldırım<span class="oj">.</span></span>
+        </h1>
+        <p class="hero-sub rv">Hacettepe Üniversitesi'nde Bilgisayar Mühendisliği okuyorum. <strong>Yapay zekâ</strong>, <strong>bilgisayarlı görü</strong>, veri odaklı sistemler ve simülasyon üzerine üretiyorum; fikirleri masaüstünden mobile, tarayıcıdan mağaza raflarına taşıyorum.</p>
+        <div class="hero-meta rv">
+          <span>◆ Yapay Zekâ</span><span>◆ Yazılım Mühendisliği</span><span>◆ Bilgisayarlı Görü</span><span>◆ Simülasyon</span>
+        </div>
+        <p class="live-badge avail rv"><span class="live-dot" aria-hidden="true"></span>Staj fırsatlarına ve yeni projelere açığım</p>
+        <div class="hero-cta rv">
+          <a class="btn btn-solid" href="#projeler">Projelere göz at
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 4v16m0 0l-6-6m6 6l6-6"/></svg>
+          </a>
+          <a class="btn btn-line" href="https://github.com/mertey19" target="_blank" rel="noopener noreferrer">GitHub profilim
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+          </a>
+          <a class="btn btn-line" href="cv-mert-erdogan-yildirim.pdf" download="Mert-Erdogan-Yildirim-CV.pdf">CV İndir
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 21h16"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-portrait rv">
+        <div class="frame">
+          <img src="https://avatars.githubusercontent.com/u/196539396?v=4" alt="Mert Erdoğan Yıldırım'ın portresi" width="210" height="210" loading="eager">
+        </div>
+        <svg class="stamp" viewBox="0 0 100 100" aria-hidden="true">
+          <defs><path id="circ" d="M50,50 m-38,0 a38,38 0 1,1 76,0 a38,38 0 1,1 -76,0"/></defs>
+          <circle cx="50" cy="50" r="30" fill="#e8500a"/>
+          <text style="font:700 11.5px Inter,sans-serif;letter-spacing:2.6px;fill:#16130e">
+            <textPath href="#circ">YAPAY ZEKÂ • GÖRÜ • SİMÜLASYON •</textPath>
+          </text>
+          <text x="50" y="57" text-anchor="middle" style="font:italic 900 22px Fraunces,Georgia,serif;fill:#faf9f6">23</text>
+        </svg>
+      </div>
+    </div>
+    <div class="stats" role="list" aria-label="Özet istatistikler">
+      <div class="stat rv" role="listitem"><b>23</b><span>Proje</span></div>
+      <div class="stat rv" role="listitem"><b>7<em>+</em></b><span>Programlama Dili</span></div>
+      <div class="stat rv" role="listitem"><b>1</b><span>Yayında Uygulama · Patiro</span></div>
+      <div class="stat rv" role="listitem"><b>2</b><span>Mağaza · App Store &amp; Google Play</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 01 PATIRO ============ -->
+<section id="patiro" aria-labelledby="patiro-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-num rv" aria-hidden="true">01 /</div>
+      <h2 class="sec-title rv" id="patiro-h">Yayında: Patiro</h2>
+      <p class="sec-note rv">Depoda değil, mağazada. Gerçek kullanıcılarla buluşan ürün.</p>
+    </div>
+
+    <article class="flag rv" aria-label="Patiro — yayında olan mobil uygulama">
+      <div class="flag-txt">
+        <span class="live-badge"><span class="live-dot" aria-hidden="true"></span>App Store ve Google Play'de yayında</span>
+        <h3 class="flag-name">Patiro<em>çoklu pet bakımı</em></h3>
+        <p class="flag-one">App Store ve Google Play'de yayında olan çoklu evcil hayvan bakım ve takip uygulaması.</p>
+        <p class="flag-desc">Evcil hayvan sahiplerinin günlük bakım rutinlerini düzenli ve güvenilir şekilde takip etmesini sağlayan mobil uygulama. Aşı, ilaç, mama ve bakım hatırlatıcıları, veteriner randevu ve not takibi, kilo geçmişi, fotoğraf galerisi, QR pet kimliği ve aile paylaşımı gibi özellikler sunuyor — iOS ve Android için iki mağazada da yayında.</p>
+        <ul class="flag-feats">
+          <li>Birden fazla pet profili yönetimi</li>
+          <li>Aşı, ilaç, mama ve bakım hatırlatıcıları</li>
+          <li>Veteriner notları, randevu ve kilo geçmişi takibi</li>
+          <li>QR pet kimliği ve aile üyeleriyle bakım paylaşımı</li>
+        </ul>
+        <div class="stores">
+          <a class="store-btn" href="https://apps.apple.com/us/app/patiro/id6776685421" target="_blank" rel="noopener noreferrer" aria-label="Patiro'yu App Store'dan indir">
+            <svg width="26" height="30" viewBox="0 0 24 28" fill="#fff" aria-hidden="true">
+              <path d="M19.7 14.9c0-3.1 2.5-4.6 2.6-4.7-1.4-2.1-3.6-2.4-4.4-2.4-1.9-.2-3.7 1.1-4.6 1.1-1 0-2.4-1.1-4-1-2 0-3.9 1.2-5 3-2.1 3.7-.5 9.2 1.5 12.2 1 1.5 2.2 3.1 3.8 3 1.5-.1 2.1-1 4-1 1.8 0 2.4 1 4 .9 1.7 0 2.7-1.5 3.7-3 1.2-1.7 1.6-3.3 1.7-3.4-.1 0-3.2-1.2-3.3-4.7zM16.6 5.8c.8-1 1.4-2.4 1.2-3.8-1.2 0-2.7.8-3.5 1.8-.8.9-1.5 2.3-1.3 3.7 1.4.1 2.8-.7 3.6-1.7z"/>
+            </svg>
+            <span class="st"><small>App Store'dan</small><b>İndir</b></span>
+          </a>
+          <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.patiro.app" target="_blank" rel="noopener noreferrer" aria-label="Patiro'yu Google Play'den edinin">
+            <svg width="26" height="28" viewBox="0 0 24 26" aria-hidden="true">
+              <path d="M2 1.6v22.8c0 .5.6.9 1 .6l12-11.4c.3-.3.3-.8 0-1L3 1c-.4-.3-1 .1-1 .6z" fill="#00d3ff"/>
+              <path d="M15 12.6L3 1l13.9 7.8-1.9 3.8z" fill="#00e88c"/>
+              <path d="M15 13.4L3 25l13.9-7.8-1.9-3.8z" fill="#ff3a44"/>
+              <path d="M16.9 8.8l4.3 2.4c.9.5.9 1.7 0 2.2l-4.3 2.4-2.3-3.5 2.3-3.5z" fill="#ffcf00"/>
+            </svg>
+            <span class="st"><small>Google Play'den</small><b>Edinin</b></span>
+          </a>
+        </div>
+      </div>
+      <div class="flag-vis" aria-hidden="true">
+        <svg class="paws" viewBox="0 0 400 520" preserveAspectRatio="xMidYMid slice">
+          <g fill="#e8500a" opacity=".14">
+            <g transform="translate(40,60) rotate(-18)"><ellipse cx="0" cy="14" rx="13" ry="11"/><circle cx="-13" cy="-4" r="5.4"/><circle cx="-4.5" cy="-9" r="5.4"/><circle cx="4.5" cy="-9" r="5.4"/><circle cx="13" cy="-4" r="5.4"/></g>
+            <g transform="translate(330,110) rotate(14) scale(1.5)"><ellipse cx="0" cy="14" rx="13" ry="11"/><circle cx="-13" cy="-4" r="5.4"/><circle cx="-4.5" cy="-9" r="5.4"/><circle cx="4.5" cy="-9" r="5.4"/><circle cx="13" cy="-4" r="5.4"/></g>
+            <g transform="translate(70,420) rotate(8) scale(1.2)"><ellipse cx="0" cy="14" rx="13" ry="11"/><circle cx="-13" cy="-4" r="5.4"/><circle cx="-4.5" cy="-9" r="5.4"/><circle cx="4.5" cy="-9" r="5.4"/><circle cx="13" cy="-4" r="5.4"/></g>
+            <g transform="translate(340,440) rotate(-10)"><ellipse cx="0" cy="14" rx="13" ry="11"/><circle cx="-13" cy="-4" r="5.4"/><circle cx="-4.5" cy="-9" r="5.4"/><circle cx="4.5" cy="-9" r="5.4"/><circle cx="13" cy="-4" r="5.4"/></g>
+          </g>
+        </svg>
+        <svg width="230" height="440" viewBox="0 0 230 440" role="img" aria-label="Patiro uygulama arayüzü çizimi">
+          <rect x="4" y="4" width="222" height="432" rx="34" fill="#16130e"/>
+          <rect x="12" y="12" width="206" height="416" rx="27" fill="#faf9f6"/>
+          <rect x="88" y="20" width="54" height="9" rx="4.5" fill="#16130e"/>
+          <rect x="28" y="48" width="112" height="13" rx="6" fill="#16130e"/>
+          <rect x="28" y="70" width="70" height="8" rx="4" fill="#cfc7b6"/>
+          <circle cx="186" cy="60" r="16" fill="#ffe1cd"/>
+          <g transform="translate(186,60) scale(.62)" fill="#e8500a"><ellipse cx="0" cy="8" rx="10" ry="8"/><circle cx="-10" cy="-5" r="4"/><circle cx="-3.5" cy="-9" r="4"/><circle cx="3.5" cy="-9" r="4"/><circle cx="10" cy="-5" r="4"/></g>
+          <rect x="28" y="96" width="174" height="64" rx="14" fill="#e8500a"/>
+          <circle cx="56" cy="128" r="15" fill="#faf9f6"/>
+          <g transform="translate(56,128) scale(.55)" fill="#e8500a"><ellipse cx="0" cy="8" rx="10" ry="8"/><circle cx="-10" cy="-5" r="4"/><circle cx="-3.5" cy="-9" r="4"/><circle cx="3.5" cy="-9" r="4"/><circle cx="10" cy="-5" r="4"/></g>
+          <rect x="82" y="112" width="86" height="10" rx="5" fill="#faf9f6"/>
+          <rect x="82" y="130" width="60" height="7" rx="3.5" fill="#ffd0b3"/>
+          <rect x="28" y="174" width="83" height="74" rx="14" fill="#fff" stroke="#e0dacd"/>
+          <rect x="119" y="174" width="83" height="74" rx="14" fill="#fff" stroke="#e0dacd"/>
+          <circle cx="49" cy="196" r="9" fill="#eaf6ec"/><path d="M45 196l3 3 6-6" stroke="#22a04a" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+          <rect x="40" y="214" width="58" height="8" rx="4" fill="#16130e"/>
+          <rect x="40" y="228" width="40" height="6" rx="3" fill="#cfc7b6"/>
+          <circle cx="140" cy="196" r="9" fill="#fff1e8"/><path d="M140 190v6l4 3" stroke="#e8500a" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+          <rect x="131" y="214" width="58" height="8" rx="4" fill="#16130e"/>
+          <rect x="131" y="228" width="40" height="6" rx="3" fill="#cfc7b6"/>
+          <rect x="28" y="262" width="174" height="42" rx="12" fill="#fff" stroke="#e0dacd"/>
+          <circle cx="48" cy="283" r="10" fill="#f3f0e9"/><rect x="66" y="274" width="76" height="8" rx="4" fill="#16130e"/><rect x="66" y="288" width="52" height="6" rx="3" fill="#cfc7b6"/>
+          <rect x="164" y="276" width="28" height="14" rx="7" fill="#eaf6ec" stroke="#bfe3c8"/>
+          <rect x="28" y="312" width="174" height="42" rx="12" fill="#fff" stroke="#e0dacd"/>
+          <circle cx="48" cy="333" r="10" fill="#f3f0e9"/><rect x="66" y="324" width="64" height="8" rx="4" fill="#16130e"/><rect x="66" y="338" width="44" height="6" rx="3" fill="#cfc7b6"/>
+          <rect x="164" y="326" width="28" height="14" rx="7" fill="#fff1e8" stroke="#ffd0b3"/>
+          <polyline points="36,392 66,378 96,384 126,368 156,374 194,360" fill="none" stroke="#e8500a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="194" cy="360" r="4.5" fill="#e8500a"/>
+          <rect x="88" y="414" width="54" height="5" rx="2.5" fill="#16130e"/>
+        </svg>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ 02 FEATURED ============ -->
+<section id="one-cikan" aria-labelledby="feat-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-num rv" aria-hidden="true">02 /</div>
+      <h2 class="sec-title rv" id="feat-h">Öne Çıkan Projeler</h2>
+      <p class="sec-note rv">Mühendislik derinliği en yüksek altı açık kaynak çalışma.</p>
+    </div>
+    <div class="feat-grid">
+
+      <article class="feat rv" data-idx="Nº1">
+        <p class="feat-cat">Masaüstü · Simülasyon</p>
+        <h3>Uydu Yer İstasyonu ve Dijital İkiz</h3>
+        <p class="one">Unity üzerinde drone/rover görevlerini gerçek zamanlı izleyen, rota planlayan ve dijital ikizle senkronize eden yer istasyonu.</p>
+        <ul>
+          <li>Mapbox ile uydu/sokak/3D harita modları ve waypoint tabanlı rota oluşturma</li>
+          <li>UDP üzerinden JSON telemetri alımı, doğrulama ve ACK/NACK geri bildirimi</li>
+          <li>Faz takibi, obstacle/target/voxel delta güncellemeleri ve dinamik replan yapan mission engine</li>
+          <li>Operasyon kaydı ve replay ile görev sonrası analiz</li>
+        </ul>
+        <div class="chips"><span class="chip">C#</span><span class="chip">Unity</span><span class="chip">Mapbox</span><span class="chip">UDP</span><span class="chip">JSON</span></div>
+        <div class="feat-foot"><a class="ghlink" href="https://github.com/mertey19/groundstation" target="_blank" rel="noopener noreferrer">GitHub'da incele <span aria-hidden="true">→</span></a></div>
+      </article>
+
+      <article class="feat rv" data-idx="Nº2">
+        <p class="feat-cat">Web · Bilgisayarlı Görü</p>
+        <h3>3B Dijital İkiz Platformu</h3>
+        <p class="one">Drone fotoğraflarından 3B saha modeli üreten, canlı telemetri ve alarm paneliyle tarayıcıda çalışan dijital ikiz platformu.</p>
+        <ul>
+          <li>EXIF GPS / FFT phase correlation / ORB ile hızlı drone mozaik birleştirme (RANSAC homography'den kat kat hızlı)</li>
+          <li>Three.js sahnesinde 3B binalar, animasyonlu su shader'ı ve gün saati/hava efektleri</li>
+          <li>Canlı telemetri, sparkline grafikler, alarm rozetleri ve JSON rapor export</li>
+          <li>GeoTIFF import ve sentetik veri üreteciyle esnek veri hattı</li>
+        </ul>
+        <div class="chips"><span class="chip">Python</span><span class="chip">Three.js</span><span class="chip">OpenCV</span><span class="chip">NumPy</span><span class="chip">WebSocket</span></div>
+        <div class="feat-foot"><a class="ghlink" href="https://github.com/mertey19/digitaltwin" target="_blank" rel="noopener noreferrer">GitHub'da incele <span aria-hidden="true">→</span></a></div>
+      </article>
+
+      <article class="feat rv" data-idx="Nº3">
+        <p class="feat-cat">Yapay Zekâ · Veri Bilimi</p>
+        <h3>İş Piyasası Zekâ Platformu</h3>
+        <p class="one">AI ve veri bilimi iş ilanlarını uçtan uca işleyip maaş tahmini ve interaktif karar panosuna dönüştüren veri bilimi ürünü.</p>
+        <ul>
+          <li>Optuna ile hiperparametre aramalı XGBoost maaş regresyonu ve SMOTE destekli kıdem sınıflandırması</li>
+          <li>SHAP açıklanabilirlik paneli ve residual hata analizi</li>
+          <li>KPI kartları, filtreler ve what-if simülatörlü Streamlit panosu</li>
+          <li>MLflow takibi, pytest, Docker ve GitHub Actions CI/CD</li>
+        </ul>
+        <div class="chips"><span class="chip">Python</span><span class="chip">XGBoost</span><span class="chip">Optuna</span><span class="chip">SHAP</span><span class="chip">MLflow</span><span class="chip">Docker</span></div>
+        <div class="feat-foot"><a class="ghlink" href="https://github.com/mertey19/ai-job-market-intelligence-platform" target="_blank" rel="noopener noreferrer">GitHub'da incele <span aria-hidden="true">→</span></a></div>
+      </article>
+
+      <article class="feat rv" data-idx="Nº4">
+        <p class="feat-cat">Mobil · Android</p>
+        <h3>FinWallet: Akıllı Harcama Takibi</h3>
+        <p class="one">Cihaz üzerinde fiş OCR'ı ve harcama analitiği sunan, Jetpack Compose ile yazılmış offline-first Android uygulaması.</p>
+        <ul>
+          <li>CameraX + ML Kit ile cihaz üzerinde fiş OCR'ı ve sezgisel ayrıştırma</li>
+          <li>Room ve DataStore ile offline-first veri saklama</li>
+          <li>Aylık karşılaştırma, kategori payı ve günlük harcama grafiği analitikleri</li>
+          <li>WorkManager ile bildirimli periyodik hatırlatıcılar</li>
+        </ul>
+        <div class="chips"><span class="chip">Kotlin</span><span class="chip">Jetpack Compose</span><span class="chip">Hilt</span><span class="chip">Room</span><span class="chip">ML Kit</span><span class="chip">CameraX</span></div>
+        <div class="feat-foot"><a class="ghlink" href="https://github.com/mertey19/finwallet-android" target="_blank" rel="noopener noreferrer">GitHub'da incele <span aria-hidden="true">→</span></a></div>
+      </article>
+
+      <article class="feat rv" data-idx="Nº5">
+        <p class="feat-cat">Masaüstü · Görüntü İşleme</p>
+        <h3>Kopya Fotoğraf Avcısı</h3>
+        <p class="one">Birebir aynı ve görsel olarak benzer fotoğrafları bulup güvenle temizleyen C++/Qt masaüstü uygulaması.</p>
+        <ul>
+          <li>SHA-256 ile birebir, DCT tabanlı perceptual hash + Hamming mesafesiyle benzer kopya tespiti</li>
+          <li>Arka plan iş parçacığında donmayan tarama, canlı ilerleme ve ayarlanabilir benzerlik eşiği</li>
+          <li>Çözünürlük → dosya boyutu → tarih önceliğiyle akıllı "sakla" önerisi</li>
+          <li>Silme yok: kopyalar çakışma korumalı yedek klasörüne güvenle taşınır</li>
+        </ul>
+        <div class="chips"><span class="chip">C++17</span><span class="chip">Qt 6</span><span class="chip">OpenCV</span><span class="chip">CMake</span></div>
+        <div class="feat-foot"><a class="ghlink" href="https://github.com/mertey19/duplicatephotofinder" target="_blank" rel="noopener noreferrer">GitHub'da incele <span aria-hidden="true">→</span></a></div>
+      </article>
+
+      <article class="feat rv" data-idx="Nº6">
+        <p class="feat-cat">Masaüstü · Üretkenlik</p>
+        <h3>PDF Araç Kutusu</h3>
+        <p class="one">Birleştirme, bölme, metin çıkarma ve hızlı görüntüleme gibi tüm PDF işlerini tek çatı altında toplayan masaüstü uygulaması.</p>
+        <ul>
+          <li>Sıralama kontrollü birleştirme, aralık/sayfa bazlı bölme ve sayfa çıkarma</li>
+          <li>Sayfa önbelleği ve metin aramalı hızlı yerleşik PDF görüntüleyici</li>
+          <li>İş mantığı arayüzden ayrık, pytest ile test edilen çekirdek modüller</li>
+          <li>İlerleme geri bildirimli arka plan işlemleri ve PyInstaller ile Windows paketi</li>
+        </ul>
+        <div class="chips"><span class="chip">Python</span><span class="chip">CustomTkinter</span><span class="chip">pypdf</span><span class="chip">PyMuPDF</span></div>
+        <div class="feat-foot"><a class="ghlink" href="https://github.com/mertey19/pdfmanager" target="_blank" rel="noopener noreferrer">GitHub'da incele <span aria-hidden="true">→</span></a></div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ 03 ALL PROJECTS ============ -->
+<section id="projeler" aria-labelledby="proj-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-num rv" aria-hidden="true">03 /</div>
+      <h2 class="sec-title rv" id="proj-h">Tüm Projeler</h2>
+      <p class="sec-note rv" id="projCount" aria-live="polite">23 projenin tamamı — kategoriye göre filtreleyin.</p>
+    </div>
+    <div class="filters rv" role="group" aria-label="Proje kategori filtreleri" id="filters"></div>
+    <div class="proj-grid" id="projGrid"></div>
+  </div>
+</section>
+
+<!-- ============ 04 SKILLS ============ -->
+<section id="yetenekler" aria-labelledby="skill-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-num rv" aria-hidden="true">04 /</div>
+      <h2 class="sec-title rv" id="skill-h">Yetenekler</h2>
+      <p class="sec-note rv">23 projede fiilen kullanılmış diller ve teknolojiler.</p>
+    </div>
+    <div class="skill-rows">
+      <div class="skill-row rv">
+        <h3><small>Temel</small>Programlama Dilleri</h3>
+        <div class="skill-chips"><span class="schip">Python</span><span class="schip">C#</span><span class="schip">C++</span><span class="schip">Java</span><span class="schip">TypeScript</span><span class="schip">Kotlin</span><span class="schip">JavaScript</span><span class="schip">HTML/CSS</span><span class="schip">SQL</span></div>
+      </div>
+      <div class="skill-row rv">
+        <h3><small>Odak</small>Yapay Zekâ &amp; Veri</h3>
+        <div class="skill-chips"><span class="schip">OpenCV</span><span class="schip">XGBoost</span><span class="schip">scikit-learn</span><span class="schip">Optuna</span><span class="schip">SHAP</span><span class="schip">MLflow</span><span class="schip">NumPy</span><span class="schip">Streamlit</span><span class="schip">ML Kit</span></div>
+      </div>
+      <div class="skill-row rv">
+        <h3><small>Ürün</small>Web Geliştirme</h3>
+        <div class="skill-chips"><span class="schip">React</span><span class="schip">Next.js</span><span class="schip">Three.js</span><span class="schip">Tailwind CSS</span><span class="schip">Vite</span><span class="schip">Zustand</span><span class="schip">Node.js</span><span class="schip">Supabase</span><span class="schip">Prisma</span><span class="schip">WebSocket</span></div>
+      </div>
+      <div class="skill-row rv">
+        <h3><small>Ürün</small>Masaüstü &amp; Simülasyon</h3>
+        <div class="skill-chips"><span class="schip">Unity</span><span class="schip">JavaFX</span><span class="schip">Qt 6</span><span class="schip">PySide6</span><span class="schip">Swing</span><span class="schip">Electron</span><span class="schip">CustomTkinter</span><span class="schip">Tkinter</span></div>
+      </div>
+      <div class="skill-row rv">
+        <h3><small>Ürün</small>Mobil Geliştirme</h3>
+        <div class="skill-chips"><span class="schip">Jetpack Compose</span><span class="schip">Material 3</span><span class="schip">Hilt</span><span class="schip">Room</span><span class="schip">DataStore</span><span class="schip">CameraX</span><span class="schip">WorkManager</span><span class="schip">iOS &amp; Android Yayınlama</span></div>
+      </div>
+      <div class="skill-row rv">
+        <h3><small>Altyapı</small>Araçlar &amp; DevOps</h3>
+        <div class="skill-chips"><span class="schip">Git &amp; GitHub</span><span class="schip">Docker</span><span class="schip">GitHub Actions</span><span class="schip">Maven</span><span class="schip">CMake</span><span class="schip">SQLite</span><span class="schip">pytest</span><span class="schip">JUnit 5</span><span class="schip">PyInstaller</span><span class="schip">jpackage</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 05 ABOUT ============ -->
+<section id="hakkimda" aria-labelledby="about-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-num rv" aria-hidden="true">05 /</div>
+      <h2 class="sec-title rv" id="about-h">Hakkımda</h2>
+      <p class="sec-note rv">Kod yazan değil, ürün bitiren biri olmayı önemsiyorum.</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-txt">
+        <p class="rv">Merhaba, ben Mert. Hacettepe Üniversitesi'nde Bilgisayar Mühendisliği okuyorum ve öğrenmenin en iyi yolunun gerçekten çalışan şeyler inşa etmek olduğuna inanıyorum.</p>
+        <p class="rv">İlgi alanım oldukça geniş bir yelpazeye yayılıyor: yapay zekâ ve bilgisayarlı görü projelerinde drone fotoğraflarından 3B saha modelleri ürettim, Unity üzerinde dijital ikizle senkronize çalışan bir yer istasyonu geliştirdim, XGBoost ve SHAP ile açıklanabilir maaş tahmin modelleri kurdum. Aynı merakla masaüstünde Qt ve JavaFX, web'de React ve Next.js, mobilde Jetpack Compose ile üretiyorum — 7'den fazla dilde 23 projeye imza attım.</p>
+        <p class="rv">Benim için dönüm noktası <strong>Patiro</strong> oldu: geliştirdiğim çoklu evcil hayvan bakım uygulamasını App Store ve Google Play'de yayımlamak, bir projenin "GitHub'da durması" ile gerçek kullanıcıların hayatına dokunması arasındaki farkı bana öğretti. Artık her projede aynı soruyu soruyorum: bu, birinin gerçek bir problemini çözüyor mu?</p>
+        <p class="rv">Kod tarafında temiz mimariye, test kapsamına ve "silme yok, sessiz üzerine yazma yok" gibi kullanıcıyı koruyan ilkelere önem veriyorum. Yeni bir teknolojiyle karşılaştığımda ilk işim onunla küçük ama eksiksiz bir ürün bitirmek. Birlikte üretmek isterseniz, bir e-posta uzağınızdayım.</p>
+      </div>
+      <aside class="about-side rv" aria-label="Kısa bilgiler">
+        <dl>
+          <div><dt>Konum</dt><dd>Ankara, Türkiye</dd></div>
+          <div><dt>Eğitim</dt><dd>Hacettepe Üniversitesi — Bilgisayar Mühendisliği</dd></div>
+          <div><dt>Odak Alanları</dt><dd>Yapay zekâ · Yazılım mühendisliği · Veri odaklı sistemler · Bilgisayarlı görü · Simülasyon</dd></div>
+          <div><dt>Yayında</dt><dd>Patiro — App Store &amp; Google Play</dd></div>
+          <div><dt>GitHub</dt><dd><a href="https://github.com/mertey19" target="_blank" rel="noopener noreferrer">github.com/mertey19</a></dd></div>
+          <div><dt>E-posta</dt><dd><a href="mailto:merterdoganyildirim@gmail.com">merterdoganyildirim@gmail.com</a></dd></div>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 06 CONTACT ============ -->
+<section id="iletisim" aria-labelledby="contact-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-num rv" aria-hidden="true">06 /</div>
+      <h2 class="sec-title rv" id="contact-h">İletişim</h2>
+      <p class="sec-note rv">Staj, açık kaynak iş birliği ve proje teklifleri için.</p>
+    </div>
+    <div class="contact">
+      <p class="contact-big rv">Bir fikriniz mi var?<br><a href="mailto:merterdoganyildirim@gmail.com">Birlikte inşa edelim.</a></p>
+      <p class="contact-sub rv">E-postalara genellikle aynı gün dönüyorum. Projelerimin kaynak koduna göz atmak, bir hata bildirmek ya da sadece merhaba demek için GitHub üzerinden de ulaşabilirsiniz.</p>
+      <div class="contact-links rv">
+        <a class="btn btn-solid" href="mailto:merterdoganyildirim@gmail.com">merterdoganyildirim@gmail.com
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+        </a>
+        <a class="btn btn-line" href="https://github.com/mertey19" target="_blank" rel="noopener noreferrer">github.com/mertey19
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+        </a>
+        <a class="btn btn-line" href="cv-mert-erdogan-yildirim.pdf" download="Mert-Erdogan-Yildirim-CV.pdf">CV İndir
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 21h16"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap foot-in">
+    <p><b>Mert Erdoğan Yıldırım</b> — Ankara, Türkiye · © 2026</p>
+    <a class="top-link" href="#" aria-label="Sayfanın başına dön">Başa dön
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M12 20V4m0 0l-6 6m6-6l6 6"/></svg>
+    </a>
+  </div>
+</footer>
+
+<script>
+(function(){
+"use strict";
+
+/* ---------- data: 23 proje ---------- */
+var CAT_TR={"masaustu":"Masaüstü","web":"Web","mobil":"Mobil","ai-ml":"AI · ML","arac":"Araç","oyun":"Oyun"};
+var P=[
+{n:"Patiro",t:"Patiro",o:"App Store ve Google Play'de yayında olan çoklu evcil hayvan bakım ve takip uygulaması",u:"https://apps.apple.com/us/app/patiro/id6776685421",ios:"https://apps.apple.com/us/app/patiro/id6776685421",and:"https://play.google.com/store/apps/details?id=com.patiro.app",s:["iOS","Android"],c:"mobil",pub:true},
+{n:"groundstation",t:"Uydu Yer İstasyonu ve Dijital İkiz",o:"Unity üzerinde drone/rover görevlerini gerçek zamanlı izleyen, rota planlayan ve dijital ikizle senkronize eden yer istasyonu.",u:"https://github.com/mertey19/groundstation",s:["C#","Unity","Mapbox","UDP"],c:"masaustu"},
+{n:"digitaltwin",t:"3B Dijital İkiz Platformu",o:"Drone fotoğraflarından 3B saha modeli üreten, canlı telemetri ve alarm paneliyle tarayıcıda çalışan dijital ikiz platformu.",u:"https://github.com/mertey19/digitaltwin",s:["Python","Three.js","OpenCV","WebSocket"],c:"web"},
+{n:"duplicatephotofinder",t:"Kopya Fotoğraf Avcısı",o:"Birebir aynı ve görsel olarak benzer fotoğrafları bulup güvenle temizleyen C++/Qt masaüstü uygulaması.",u:"https://github.com/mertey19/duplicatephotofinder",s:["C++17","Qt 6","OpenCV","CMake"],c:"masaustu"},
+{n:"eyesart",t:"İris Sanat Stüdyosu",o:"Sıradan bir göz fotoğrafını baskıya hazır iris sanat eserine dönüştüren yerel masaüstü stüdyo.",u:"https://github.com/mertey19/eyesart",s:["Python","PySide6","OpenCV","SQLite"],c:"masaustu"},
+{n:"student-planner",t:"Öğrenci Teslim Tarihi Yöneticisi",o:"Akademik teslim tarihlerini takvim, haftalık planlayıcı ve raporlarla yöneten katmanlı mimarili JavaFX uygulaması.",u:"https://github.com/mertey19/student-planner",s:["Java 21","JavaFX","SQLite","JUnit 5"],c:"masaustu"},
+{n:"MP3",t:"Evrensel Müzik Arama ve Çalar",o:"Şarkı, sanatçı ve albüm aramayı yasal önizlemeler ve yerel dosyalarla birleştiren Spotify tarzı web müzik çaları.",u:"https://github.com/mertey19/MP3",s:["React 18","TypeScript","Vite","Zustand"],c:"web"},
+{n:"warranty-and-receipt-tracker",t:"Garanti ve Fiş Takipçisi",o:"Satın aldıklarınızı, garanti sürelerini ve fişlerinizi tek bir çevrimdışı masaüstü uygulamasında toplayan takip aracı.",u:"https://github.com/mertey19/warranty-and-receipt-tracker",s:["Java 21","JavaFX","SQLite","PDFBox"],c:"masaustu"},
+{n:"bayram-mesaj-",t:"Bayram Mesajı Uygulaması",o:"Next.js ile geliştirilmiş, bayram mesajları için hazırlanmış bir web uygulaması.",u:"https://github.com/mertey19/bayram-mesaj-",s:["TypeScript","Next.js","React"],c:"web"},
+{n:"devmanager",t:"Geliştirici Proje Paneli",o:"Yazılım fikirlerini, todo'ları ve GitHub projelerini tek panelden yöneten geliştirici odaklı dashboard.",u:"https://github.com/mertey19/devmanager",s:["TypeScript","Next.js","Supabase","Electron"],c:"web"},
+{n:"pdfmanager",t:"PDF Araç Kutusu",o:"Birleştirme, bölme, metin çıkarma ve hızlı görüntüleme gibi tüm PDF işlerini tek çatı altında toplayan masaüstü uygulaması.",u:"https://github.com/mertey19/pdfmanager",s:["Python","CustomTkinter","pypdf","PyMuPDF"],c:"masaustu"},
+{n:"txt-comparator",t:"Metin Karşılaştırıcı",o:"İki metin dosyasını karakter düzeyinde vurgulamayla yan yana karşılaştıran WinMerge tarzı masaüstü aracı.",u:"https://github.com/mertey19/txt-comparator",s:["JavaScript","Electron","Node.js"],c:"masaustu"},
+{n:"java-smart-file-organizer",t:"Akıllı Dosya Düzenleyici (Java)",o:"Karışık klasörleri kategorilere ayıran, önizleme ve geri alma destekli güvenli masaüstü düzenleyici.",u:"https://github.com/mertey19/java-smart-file-organizer",s:["Java 17","Swing","Maven","Jackson"],c:"masaustu"},
+{n:"Smart-File-Organizer",t:"Akıllı Dosya Düzenleyici (Python)",o:"İndirilenler ve Masaüstü gibi klasörleri güvenli taşıma ilkesiyle otomatik toparlayan Python aracı.",u:"https://github.com/mertey19/Smart-File-Organizer",s:["Python","CustomTkinter","watchdog","pytest"],c:"masaustu"},
+{n:"bankcore-lite",t:"Bankacılık Simülasyonu",o:"Katmanlı mimariyle yazılmış, PDF ekstre üretebilen eğitim amaçlı JavaFX bankacılık uygulaması.",u:"https://github.com/mertey19/bankcore-lite",s:["Java 21","JavaFX","BCrypt","PDFBox"],c:"masaustu"},
+{n:"yt-playlist-manager-pro",t:"YouTube Oynatma Listesi Yöneticisi",o:"YouTube API ile playlist yönetimi ve video açıklamalarından toplu PDF arşivleme yapan masaüstü araç.",u:"https://github.com/mertey19/yt-playlist-manager-pro",s:["Python","Tkinter","YouTube Data API"],c:"arac"},
+{n:"doctor-clinic",t:"Klinik Tanıtım Sitesi",o:"Next.js 15 ile geliştirilmiş, veritabanı erişilemese bile ayakta kalan modern klinik web sitesi.",u:"https://github.com/mertey19/doctor-clinic",s:["Next.js 15","React 19","Tailwind CSS","Prisma"],c:"web"},
+{n:"study-coach-planner-to-universty-exam",t:"Sınav Koçu Planlayıcı",o:"TYT/AYT sürecini haftalık plan, net takibi ve ilerleme analitiğiyle tek masaüstü uygulamada yöneten çalışma koçu.",u:"https://github.com/mertey19/study-coach-planner-to-universty-exam",s:["Python","Tkinter","JSON"],c:"masaustu"},
+{n:"rock-paper-scissors-web",t:"Taş Kağıt Makas Arenası",o:"Tek dosyada çalışan, animasyonlu ve mobil uyumlu klasik taş-kağıt-makas oyunu.",u:"https://github.com/mertey19/rock-paper-scissors-web",s:["HTML5","CSS3","JavaScript (ES6)"],c:"oyun"},
+{n:"ai-job-market-intelligence-platform",t:"İş Piyasası Zekâ Platformu",o:"AI ve veri bilimi iş ilanlarını uçtan uca işleyip maaş tahmini ve interaktif karar panosuna dönüştüren veri bilimi ürünü.",u:"https://github.com/mertey19/ai-job-market-intelligence-platform",s:["Python","XGBoost","SHAP","Streamlit"],c:"ai-ml"},
+{n:"grade-calculator-javafx",t:"Not Ortalaması Asistanı",o:"Ağırlıklı sınav notlarından GPA ve dönem sonuçlarını hesaplayan, çok temalı JavaFX masaüstü uygulaması.",u:"https://github.com/mertey19/grade-calculator-javafx",s:["Java 17","JavaFX","Gson","OpenPDF"],c:"masaustu"},
+{n:"finwallet-android",t:"FinWallet: Akıllı Harcama Takibi",o:"Cihaz üzerinde fiş OCR'ı ve harcama analitiği sunan, Jetpack Compose ile yazılmış offline-first Android uygulaması.",u:"https://github.com/mertey19/finwallet-android",s:["Kotlin","Jetpack Compose","Room","ML Kit"],c:"mobil"},
+{n:"spotifyfx-player",t:"SpotifyFX Müzik Çalar",o:"Spotify'dan ilham alan koyu temalı arayüzüyle yerel MP3 arşivini yöneten JavaFX masaüstü müzik çalar.",u:"https://github.com/mertey19/spotifyfx-player",s:["Java 17","JavaFX","Maven","Jackson"],c:"masaustu"}
+];
+
+function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")}
+
+/* ---------- render project grid ---------- */
+var grid=document.getElementById("projGrid");
+var html="";
+P.forEach(function(p){
+  var chips=p.s.map(function(x){return '<span class="chip">'+esc(x)+'</span>'}).join("");
+  var links;
+  if(p.pub){
+    links='<a class="plink-store" href="'+p.ios+'" target="_blank" rel="noopener noreferrer" aria-label="Patiro — App Store (yeni sekmede açılır)"><svg width="13" height="15" viewBox="0 0 24 28" fill="currentColor" aria-hidden="true"><path d="M19.7 14.9c0-3.1 2.5-4.6 2.6-4.7-1.4-2.1-3.6-2.4-4.4-2.4-1.9-.2-3.7 1.1-4.6 1.1-1 0-2.4-1.1-4-1-2 0-3.9 1.2-5 3-2.1 3.7-.5 9.2 1.5 12.2 1 1.5 2.2 3.1 3.8 3 1.5-.1 2.1-1 4-1 1.8 0 2.4 1 4 .9 1.7 0 2.7-1.5 3.7-3 1.2-1.7 1.6-3.3 1.7-3.4-.1 0-3.2-1.2-3.3-4.7zM16.6 5.8c.8-1 1.4-2.4 1.2-3.8-1.2 0-2.7.8-3.5 1.8-.8.9-1.5 2.3-1.3 3.7 1.4.1 2.8-.7 3.6-1.7z"/></svg>App Store</a>'+
+          '<a class="plink-store" href="'+p.and+'" target="_blank" rel="noopener noreferrer" aria-label="Patiro — Google Play (yeni sekmede açılır)"><svg width="13" height="14" viewBox="0 0 24 26" fill="currentColor" aria-hidden="true"><path d="M2 1.6v22.8c0 .5.6.9 1 .6l12-11.4c.3-.3.3-.8 0-1L3 1c-.4-.3-1 .1-1 .6zM16.9 8.8l4.3 2.4c.9.5.9 1.7 0 2.2l-4.3 2.4-2.3-3.5 2.3-3.5z"/></svg>Google Play</a>';
+  }else{
+    links='<a class="plink" href="'+p.u+'" target="_blank" rel="noopener noreferrer" aria-label="'+esc(p.t)+' — GitHub deposu (yeni sekmede açılır)">GitHub <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>';
+  }
+  html+='<article class="pcard rv" data-cat="'+p.c+'">'+
+    (p.pub?'<span class="mini-live">Yayında</span>':'')+
+    '<div class="pcard-top"><div class="mono m-'+p.c+'" aria-hidden="true">'+esc(p.t.charAt(0))+'</div>'+
+    '<div><p class="pcard-cat">'+CAT_TR[p.c]+'</p><h3><a href="'+(p.pub?p.ios:p.u)+'" target="_blank" rel="noopener noreferrer">'+esc(p.t)+'</a></h3></div></div>'+
+    '<p class="one">'+esc(p.o)+'</p>'+
+    '<div class="chips">'+chips+'</div>'+
+    '<div class="pcard-foot">'+links+'</div></article>';
+});
+grid.innerHTML=html;
+
+/* ---------- filters ---------- */
+var counts={all:P.length};
+P.forEach(function(p){counts[p.c]=(counts[p.c]||0)+1});
+var FILTERS=[["all","Tümü"],["masaustu","Masaüstü"],["web","Web"],["mobil","Mobil"],["ai-ml","AI-ML"],["arac","Araç"],["oyun","Oyun"]];
+var fwrap=document.getElementById("filters");
+fwrap.innerHTML=FILTERS.map(function(f){
+  return '<button type="button" class="fbtn" data-f="'+f[0]+'" aria-pressed="'+(f[0]==="all")+'">'+f[1]+'<span class="c">'+(counts[f[0]]||0)+'</span></button>';
+}).join("");
+fwrap.addEventListener("click",function(e){
+  var btn=e.target.closest(".fbtn");
+  if(!btn)return;
+  fwrap.querySelectorAll(".fbtn").forEach(function(b){b.setAttribute("aria-pressed","false")});
+  btn.setAttribute("aria-pressed","true");
+  var f=btn.getAttribute("data-f");
+  var shown=0;
+  grid.querySelectorAll(".pcard").forEach(function(card){
+    var show=f==="all"||card.getAttribute("data-cat")===f;
+    card.classList.toggle("hide",!show);
+    if(show){shown++;card.classList.add("in")}
+  });
+  var pc=document.getElementById("projCount");
+  if(pc)pc.textContent=(f==="all")?(shown+" projenin tamamı listeleniyor."):(CAT_TR[f]+" — "+shown+" proje listeleniyor.");
+});
+
+/* ---------- hamburger ---------- */
+var burger=document.getElementById("burger");
+var navlinks=document.getElementById("navlinks");
+burger.addEventListener("click",function(){
+  var open=navlinks.classList.toggle("open");
+  burger.setAttribute("aria-expanded",String(open));
+});
+navlinks.addEventListener("click",function(e){
+  if(e.target.closest("a")){navlinks.classList.remove("open");burger.setAttribute("aria-expanded","false")}
+});
+document.addEventListener("keydown",function(e){
+  if(e.key==="Escape"&&navlinks.classList.contains("open")){
+    navlinks.classList.remove("open");
+    burger.setAttribute("aria-expanded","false");
+    burger.focus();
+  }
+});
+
+/* ---------- reveal on scroll ---------- */
+var reduced=window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+if("IntersectionObserver" in window && !reduced){
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(en.isIntersecting){en.target.classList.add("in");io.unobserve(en.target)}
+    });
+  },{threshold:.12,rootMargin:"0px 0px -40px 0px"});
+  document.querySelectorAll(".rv").forEach(function(el){io.observe(el)});
+}else{
+  document.querySelectorAll(".rv").forEach(function(el){el.classList.add("in")});
+}
+
+/* ---------- active nav highlight ---------- */
+var sections=["patiro","one-cikan","projeler","yetenekler","hakkimda","iletisim"];
+var navA={};
+document.querySelectorAll(".nav-links a").forEach(function(a){
+  var id=(a.getAttribute("href")||"").replace("#","");
+  if(id)navA[id]=a;
+});
+if("IntersectionObserver" in window){
+  var cur=null;
+  var io2=new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(en.isIntersecting){
+        if(cur)cur.classList.remove("act");
+        cur=navA[en.target.id];
+        if(cur && !cur.classList.contains("nav-cta"))cur.classList.add("act");
+      }
+    });
+  },{rootMargin:"-40% 0px -55% 0px"});
+  sections.forEach(function(id){
+    var el=document.getElementById(id);
+    if(el)io2.observe(el);
+  });
+}
+})();
+</script>
+</body>
+</html>
