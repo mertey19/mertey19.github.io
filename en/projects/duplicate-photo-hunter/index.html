@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="author" content="Mert Erdoğan Yıldırım">
+<meta name="theme-color" content="#e8500a">
+<title>Duplicate Photo Hunter — Desktop | Mert Erdoğan Yıldırım</title>
+<meta name="description" content="C++/Qt desktop app that finds exact and visually similar photos and cleans them up safely.">
+<link rel="canonical" href="https://mertey19.github.io/en/projects/duplicate-photo-hunter/">
+<link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/kopya-fotograf-avcisi/">
+<link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/duplicate-photo-hunter/">
+<link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/kopya-fotograf-avcisi/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Duplicate Photo Hunter — Desktop | Mert Erdoğan Yıldırım">
+<meta property="og:description" content="C++/Qt desktop app that finds exact and visually similar photos and cleans them up safely.">
+<meta property="og:url" content="https://mertey19.github.io/en/projects/duplicate-photo-hunter/">
+<meta property="og:site_name" content="Mert Erdoğan Yıldırım">
+<meta property="og:image" content="https://mertey19.github.io/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Duplicate Photo Hunter — Desktop | Mert Erdoğan Yıldırım">
+<meta name="twitter:description" content="C++/Qt desktop app that finds exact and visually similar photos and cleans them up safely.">
+<meta name="twitter:image" content="https://mertey19.github.io/og-image.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23e8500a'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='36' font-weight='700' fill='%23faf9f6' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/project.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://mertey19.github.io/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Projects",
+          "item": "https://mertey19.github.io/en/projects/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Duplicate Photo Hunter",
+          "item": "https://mertey19.github.io/en/projects/duplicate-photo-hunter/"
+        }
+      ]
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "Duplicate Photo Hunter",
+      "description": "C++/Qt desktop app that finds exact and visually similar photos and cleans them up safely.",
+      "codeRepository": "https://github.com/mertey19/duplicatephotofinder",
+      "url": "https://mertey19.github.io/en/projects/duplicate-photo-hunter/",
+      "programmingLanguage": [
+        "C++17",
+        "Qt 6",
+        "OpenCV",
+        "CMake"
+      ],
+      "author": {
+        "@id": "https://mertey19.github.io/#person"
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="nav"><div class="nav-in">
+  <a class="logo" href="/en/">mert<em>.</em>yıldırım</a>
+  <nav class="nav-right" aria-label="Site">
+    <a href="/en/projects/">Projects</a>
+    <a href="/en/#contact">Contact</a>
+    <span class="lang"><a class="on" href="/en/projects/duplicate-photo-hunter/" aria-current="page">EN</a> / <a href="/projeler/kopya-fotograf-avcisi/" hreflang="tr">TR</a></span>
+  </nav>
+</div></header>
+
+<div class="wrap">
+<nav class="crumb" aria-label="Breadcrumb"><ol><li><a href="/en/">Home</a></li><li><a href="/en/projects/">Projects</a></li><li aria-current="page">Duplicate Photo Hunter</li></ol></nav>
+<div class="phead">
+<p class="kicker">Desktop</p>
+<h1>Duplicate Photo Hunter</h1>
+<p class="lead">C++/Qt desktop app that finds exact and visually similar photos and cleans them up safely.</p>
+<div class="chips"><span class="chip">C++17</span><span class="chip">Qt 6</span><span class="chip">OpenCV</span><span class="chip">CMake</span></div>
+<div class="acts"><a class="btn btn-solid" href="https://github.com/mertey19/duplicatephotofinder" target="_blank" rel="noopener noreferrer" aria-label="Duplicate Photo Hunter — GitHub repository (opens in a new tab)">GitHub repository</a><a class="btn btn-line" href="/en/projects/">← All projects</a></div>
+</div>
+<section class="sec"><h2><span class="n">01</span>Overview</h2><p>Duplicate Photo Hunter scans a folder for both byte-identical and visually similar photos, groups them with previews, and highlights the best copy to keep. Its default behaviour is to <strong>delete nothing</strong>: selected duplicates are moved to a backup folder.</p><p>There are two detection modes. Exact duplicates are found from file bytes via SHA-256; visual similarity is computed with a DCT-based perceptual hash (pHash) and Hamming distance, which also catches resized, re-compressed or lightly edited copies.</p></section>
+<section class="sec"><h2><span class="n">02</span>Key Features</h2><ul class="flist"><li><b>Two detection modes</b> — SHA-256 for exact duplicates, pHash + Hamming for visual similarity</li><li><b>Adjustable threshold</b> — a live Strict → Balanced → Loose slider</li><li><b>Non-freezing UI</b> — scanning runs on a background thread with a live progress bar</li><li><b>Rich result cards</b> — thumbnail, file name, resolution, size and full path</li><li><b>Smart keep suggestion</b> — highest resolution → largest file → newest date</li><li><b>Safe cleanup</b> — duplicates move to an auto-created, collision-safe <code>Duplicates_Backup</code> folder</li><li><b>Instant re-grouping</b> — changing mode or threshold updates results without re-reading files</li></ul></section>
+<section class="sec"><h2><span class="n">03</span>Engineering Notes</h2><ul class="flist"><li>Hashes are computed once and kept in memory; changing the threshold only re-groups the results instead of re-reading the disk.</li><li>A before/after summary (photos scanned, duplicate groups, space recoverable) shows the impact of the operation up front.</li><li>Written in C++17 with Qt 6 Widgets and built with CMake; the dark theme is tuned to stay readable both on screen and in screen recordings.</li></ul></section>
+<nav class="pager" aria-label="Projects"><a class="pv" href="/en/projects/3d-digital-twin-platform/"><span>Previous project</span><b>3D Digital Twin Platform</b></a><a class="nx" href="/en/projects/iris-art-studio/"><span>Next project</span><b>Iris Art Studio</b></a></nav>
+</div>
+<footer><div class="wrap foot-in">
+  <p><b>Mert Erdoğan Yıldırım</b> — Ankara, Türkiye · © 2026</p>
+  <p><a href="/en/">Home</a></p>
+</div></footer>
+</body>
+</html>

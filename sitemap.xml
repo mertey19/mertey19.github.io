@@ -6,7 +6,7 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/"/>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -15,8 +15,452 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/"/>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/projeler/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/en/projects/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/projeler/patiro/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/patiro/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/patiro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/patiro/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/en/projects/patiro/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/patiro/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/patiro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/patiro/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/projeler/uydu-yer-istasyonu-dijital-ikiz/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/uydu-yer-istasyonu-dijital-ikiz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/satellite-ground-station-digital-twin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/uydu-yer-istasyonu-dijital-ikiz/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/en/projects/satellite-ground-station-digital-twin/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/uydu-yer-istasyonu-dijital-ikiz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/satellite-ground-station-digital-twin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/uydu-yer-istasyonu-dijital-ikiz/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/projeler/3b-dijital-ikiz-platformu/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/3b-dijital-ikiz-platformu/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/3d-digital-twin-platform/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/3b-dijital-ikiz-platformu/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/en/projects/3d-digital-twin-platform/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/3b-dijital-ikiz-platformu/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/3d-digital-twin-platform/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/3b-dijital-ikiz-platformu/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/projeler/kopya-fotograf-avcisi/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/kopya-fotograf-avcisi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/duplicate-photo-hunter/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/kopya-fotograf-avcisi/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/en/projects/duplicate-photo-hunter/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/kopya-fotograf-avcisi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/duplicate-photo-hunter/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/kopya-fotograf-avcisi/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/projeler/iris-sanat-studyosu/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/iris-sanat-studyosu/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/iris-art-studio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/iris-sanat-studyosu/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/en/projects/iris-art-studio/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/iris-sanat-studyosu/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/iris-art-studio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/iris-sanat-studyosu/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/projeler/ogrenci-teslim-tarihi-yoneticisi/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/ogrenci-teslim-tarihi-yoneticisi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/student-deadline-manager/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/ogrenci-teslim-tarihi-yoneticisi/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/en/projects/student-deadline-manager/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/ogrenci-teslim-tarihi-yoneticisi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/student-deadline-manager/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/ogrenci-teslim-tarihi-yoneticisi/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/projeler/evrensel-muzik-arama-ve-calar/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/evrensel-muzik-arama-ve-calar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/universal-music-search-player/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/evrensel-muzik-arama-ve-calar/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/en/projects/universal-music-search-player/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/evrensel-muzik-arama-ve-calar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/universal-music-search-player/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/evrensel-muzik-arama-ve-calar/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/projeler/garanti-ve-fis-takipcisi/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/garanti-ve-fis-takipcisi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/warranty-receipt-tracker/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/garanti-ve-fis-takipcisi/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/en/projects/warranty-receipt-tracker/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/garanti-ve-fis-takipcisi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/warranty-receipt-tracker/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/garanti-ve-fis-takipcisi/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/projeler/bayram-mesaji-uygulamasi/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/bayram-mesaji-uygulamasi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/holiday-greetings-app/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/bayram-mesaji-uygulamasi/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/en/projects/holiday-greetings-app/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/bayram-mesaji-uygulamasi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/holiday-greetings-app/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/bayram-mesaji-uygulamasi/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/projeler/gelistirici-proje-paneli/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/gelistirici-proje-paneli/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/developer-project-dashboard/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/gelistirici-proje-paneli/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/en/projects/developer-project-dashboard/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/gelistirici-proje-paneli/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/developer-project-dashboard/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/gelistirici-proje-paneli/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/projeler/pdf-arac-kutusu/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/pdf-arac-kutusu/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/pdf-toolbox/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/pdf-arac-kutusu/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/en/projects/pdf-toolbox/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/pdf-arac-kutusu/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/pdf-toolbox/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/pdf-arac-kutusu/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/projeler/metin-karsilastirici/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/metin-karsilastirici/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/text-comparator/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/metin-karsilastirici/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/en/projects/text-comparator/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/metin-karsilastirici/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/text-comparator/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/metin-karsilastirici/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/projeler/akilli-dosya-duzenleyici-java/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/akilli-dosya-duzenleyici-java/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/smart-file-organizer-java/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/akilli-dosya-duzenleyici-java/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/en/projects/smart-file-organizer-java/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/akilli-dosya-duzenleyici-java/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/smart-file-organizer-java/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/akilli-dosya-duzenleyici-java/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/projeler/akilli-dosya-duzenleyici-python/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/akilli-dosya-duzenleyici-python/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/smart-file-organizer-python/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/akilli-dosya-duzenleyici-python/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/en/projects/smart-file-organizer-python/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/akilli-dosya-duzenleyici-python/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/smart-file-organizer-python/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/akilli-dosya-duzenleyici-python/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/projeler/bankacilik-simulasyonu/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/bankacilik-simulasyonu/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/banking-simulation/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/bankacilik-simulasyonu/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/en/projects/banking-simulation/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/bankacilik-simulasyonu/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/banking-simulation/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/bankacilik-simulasyonu/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/projeler/youtube-oynatma-listesi-yoneticisi/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/youtube-oynatma-listesi-yoneticisi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/youtube-playlist-manager/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/youtube-oynatma-listesi-yoneticisi/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/en/projects/youtube-playlist-manager/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/youtube-oynatma-listesi-yoneticisi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/youtube-playlist-manager/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/youtube-oynatma-listesi-yoneticisi/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/projeler/klinik-tanitim-sitesi/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/klinik-tanitim-sitesi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/clinic-website/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/klinik-tanitim-sitesi/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/en/projects/clinic-website/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/klinik-tanitim-sitesi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/clinic-website/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/klinik-tanitim-sitesi/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/projeler/sinav-kocu-planlayici/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/sinav-kocu-planlayici/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/exam-coach-planner/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/sinav-kocu-planlayici/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/en/projects/exam-coach-planner/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/sinav-kocu-planlayici/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/exam-coach-planner/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/sinav-kocu-planlayici/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/projeler/tas-kagit-makas-arenasi/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/tas-kagit-makas-arenasi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/rock-paper-scissors-arena/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/tas-kagit-makas-arenasi/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/en/projects/rock-paper-scissors-arena/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/tas-kagit-makas-arenasi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/rock-paper-scissors-arena/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/tas-kagit-makas-arenasi/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/projeler/is-piyasasi-zeka-platformu/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/is-piyasasi-zeka-platformu/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/ai-job-market-intelligence-platform/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/is-piyasasi-zeka-platformu/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/en/projects/ai-job-market-intelligence-platform/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/is-piyasasi-zeka-platformu/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/ai-job-market-intelligence-platform/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/is-piyasasi-zeka-platformu/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/projeler/not-ortalamasi-asistani/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/not-ortalamasi-asistani/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/gpa-assistant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/not-ortalamasi-asistani/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/en/projects/gpa-assistant/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/not-ortalamasi-asistani/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/gpa-assistant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/not-ortalamasi-asistani/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/projeler/finwallet-akilli-harcama-takibi/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/finwallet-akilli-harcama-takibi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/finwallet-smart-expense-tracking/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/finwallet-akilli-harcama-takibi/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/en/projects/finwallet-smart-expense-tracking/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/finwallet-akilli-harcama-takibi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/finwallet-smart-expense-tracking/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/finwallet-akilli-harcama-takibi/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/projeler/spotifyfx-muzik-calar/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/spotifyfx-muzik-calar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/spotifyfx-music-player/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/spotifyfx-muzik-calar/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/en/projects/spotifyfx-music-player/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mertey19.github.io/projeler/spotifyfx-muzik-calar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mertey19.github.io/en/projects/spotifyfx-music-player/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mertey19.github.io/projeler/spotifyfx-muzik-calar/"/>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/cv-mert-erdogan-yildirim.pdf</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mertey19.github.io/cv-mert-erdogan-yildirim-en.pdf</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
