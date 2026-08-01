@@ -127,13 +127,22 @@
 
   <section>
     <h2>Üçüncü taraf servisler</h2>
+    <p><strong>İzmir Büyükşehir Belediyesi Açık Veri API'si:</strong>
+    İzmir nöbetçi eczane adları, adresleri, telefonları, nöbet bölgeleri ve
+    koordinatları belediyenin anonim erişilebilen resmî Açık Veri API'sinden
+    alınır. İstek herhangi bir kullanıcı konumu veya hesap bilgisi içermez;
+    ancak IP adresi ve standart bağlantı bilgileri teknik olarak belediye
+    sunucusuna iletilebilir. Bkz.
+    <a href="https://www.izmir.bel.tr/tr/Projeler/acik-veri-portali/2629/4">
+    İzmir Açık Veri Portalı</a>.</p>
     <p><strong>Harita karoları:</strong> Harita görüntüleri OpenStreetMap
     tabanlı bir karo sunucusundan yüklenir; bu sırada IP adresiniz ve istenen
     harita bölgesi teknik zorunluluk olarak karo sağlayıcısına iletilir.
     Bkz. <a href="https://osmfoundation.org/wiki/Privacy_Policy">OSMF
     gizlilik politikası</a>.</p>
-    <p><strong>Backend (Supabase):</strong> Nöbetçi eczane listesi, Supabase
-    üzerinde barındırılan veritabanından okunur. Okuma istekleri kimliksizdir.
+    <p><strong>Backend (Supabase):</strong> Kullanıcı açıkça "bilgi hatası
+    bildir" işlemini gönderirse bildirim Supabase üzerinde barındırılan
+    backend'e iletilir. Nöbetçi eczane listesi Supabase'den alınmaz.
     Bkz. <a href="https://supabase.com/privacy">Supabase gizlilik
     politikası</a>.</p>
   </section>
